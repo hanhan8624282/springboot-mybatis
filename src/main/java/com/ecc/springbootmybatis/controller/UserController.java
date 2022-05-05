@@ -33,6 +33,11 @@ public class UserController {
         System.out.println(1234);
         System.out.println(1234);
         System.out.println("这是hot-fix分支");
+        System.out.println("这是hot-fix分支");
+        System.out.println("这是hot-fix分支");
+        System.out.println("this is master");
+
+
         return modelAndView;
     }
     //mysql
