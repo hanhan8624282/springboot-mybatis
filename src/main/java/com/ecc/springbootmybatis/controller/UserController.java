@@ -29,6 +29,7 @@ public class UserController {
         modelAndView.setViewName("index");//设置返回的页面
         modelAndView.addObject("user","获取modelandview的值");
         System.out.println("35vio");
+        System.out.println(123);
         return modelAndView;
     }
     //mysql
