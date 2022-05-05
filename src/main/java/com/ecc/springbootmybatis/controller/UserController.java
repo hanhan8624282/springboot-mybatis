@@ -35,7 +35,6 @@ public class UserController {
         System.out.println("这是hot-fix分支");
         System.out.println("这是hot-fix分支");
         System.out.println("这是hot-fix分支");
-        System.out.println("this is master");
         System.out.println("wcao");
 
 
