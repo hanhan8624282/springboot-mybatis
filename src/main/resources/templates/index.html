@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>首页</h1>
+<br/>
+<p th:text="${user}">shuju</p>
+<br/>
+
+<h1>mysql 数据库</h1>
+<a th:href="@{/user/8}">链接mysql数据库表的查询</a><br/>
+<a th:href="@{/user?name=sunyanchao&email=123}">链接mysql数据库表的插入</a><br/>
+<a th:href="@{/userp/8}">链接mysql数据库表的删除</a><br/>
+<a th:href="@{/userall/1}">链接mysql数据库表的查询多条记录</a><br/>
+
+<h1>oracle 数据库</h1>
+<a th:href="@{/get/12}">链接 oracle 数据库表的查询</a><br/>
+<a th:href="@{/insert?name=sunchao&email=123}">链接 oracle 数据库表的插入</a><br/>
+<a th:href="@{/delete/13}">链接 oracle 数据库表的删除</a><br/>
+<a th:href="@{/queryall/1}">链接 oracle 数据库表的查询多条记录</a><br/>
+
+<a th:href="@{/cardid/1000111100003839064/1000111100003839065}">查询卡号：1000111100003839064-1000111100003839065</a>
+<br/>
+<a th:href="@{/num/10}">返回多条记录</a><br/>
+
+<a th:href="@{/num1/10}">返回多条记录------------------</a><br/>
+</body>
+</html>

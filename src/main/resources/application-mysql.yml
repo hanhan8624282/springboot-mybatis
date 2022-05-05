@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: ecc_event_management
+    password: 94020212
+    url: jdbc:mysql://10.0.0.8:3306/test
+    driver‐class‐name: com.mysql.jdbc.Driver
+    #type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    hibernate:
+      ddl-auto: update  #更新或创建
+    show-sql: true #控制台显示

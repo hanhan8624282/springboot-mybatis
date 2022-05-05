@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:c="">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>成功</h1>
+<br/>
+
+<div >
+   <i th:text="${user}" ></i>
+    <table>
+        <tr>
+            <td>id</td>
+            <td>姓名</td>
+            <td>邮箱</td>
+        </tr>
+        <c:foreach items="${user}" var="user">
+            <tr>
+                <td><i th:text="${user.getID()}"></i></td>
+                <td><i th:text="${user.getName()}"></i></td>
+                <td><i th:text="${user.getEmail()}"></i></td>
+            </tr>
+        </c:foreach>
+    </table>
+</div>
+
+</body>
+</html>
