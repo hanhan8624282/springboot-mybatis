@@ -36,6 +36,7 @@ public class UserController {
         System.out.println("这是hot-fix分支123");
         System.out.println("这是hot-fix分支123");
         System.out.println("wcao");
+        System.out.println(123456);
 
 
         return modelAndView;
